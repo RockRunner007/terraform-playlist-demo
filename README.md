@@ -12,7 +12,8 @@ SPOTIFY_CLIENT_SECRET=
 3.) get docker image
 docker run --rm -it -p 27228:27228 --env-file ./.env ghcr.io/conradludgate/spotify-auth-proxy
 
-4.) navigate to path
+4.) navigate to auth path - Example:
+
 APIKey: tAQZMai9OYMjFbSDtQdBBTupuY1QWWBa47z9yrYgz7Kwuara7ZjTQDoro6i4TO8f
 Token:  DMpEAhY1Ut5zaKdhAMONmWnVrchO2yilbWavofS718YqfBbsLnByiUlItlXHkWPu
 Auth:   http://localhost:27228/authorize?token=DMpEAhY1Ut5zaKdhAMONmWnVrchO2yilbWavofS718YqfBbsLnByiUlItlXHkWPu
